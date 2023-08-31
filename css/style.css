@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+    font-family: "Work Sans", sans-serif;
+
+}
+
+.nav-logo h1 {
+    color: aliceblue;
+}
+
+.nav-body {
+    padding: 20px 100px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-body ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-body ul li {
+    margin: 0 10px;
+    padding-bottom: 5px;
+    border-bottom: transparent 3px solid;
+}
+
+.nav-body ul li:hover {
+    border-color: greenyellow;
+}
+
+.nav-body ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.shop {
+    text-decoration: none;
+    font-size: 20px;
+    border: 3px greenyellow solid;
+    padding: 8px 15px;
+    border-radius: 8px;
+    color: aliceblue;
+}
+
+.bannerContainer {
+    background: rgba(229, 84, 115, 0.1);
+}
+
+
+.banner {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    height: 600px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.banner h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #272727;
+}
+
+.banner p {
+    color: rgba(39, 39, 39, 0.6);
+}
+
+.btn {
+    padding: 20px 43px;
+    background-color: #e55473;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #e55473;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 1px solid gray;
+    transition: 0.4s;
+    color: gray;
+}
+
+.bannerPhoto img {
+    height: 600px;
+}
+
+.featureContainer {
+    margin: 80px 0;
+}
+
+.featureText {
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+.featureText h1 {
+    font-size: 32px;
+    margin-bottom: 22px;
+    color: #272727;
+}
+
+.featureText p {
+    margin-bottom: 18px;
+    color: gray;
+    font-size: 14px;
+}
+
+.fetureItems {
+    display: flex;
+    justify-content: center;
+}
+
+.fetureItems .featureItem img {
+    background-color: #a7216226;
+    width: 190px;
+    height: 300px;
+    margin: 9px;
+    text-align: center;
+    padding: 70px 70px 0px 70px;
+
+    border-radius: 50% 50% 0 0;
+}
+
+.fetureItems .fetureItem-2 img {
+    background-color: #0597a026;
+}
+
+.fetureItems .fetureItem-3 img {
+    background-color: #477d1126;
+}
+
+.fetureItems .featureItem h4 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.groupContainer {
+    margin-bottom: 80px;
+}
+
+.groups {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    background-color: #2727270d;
+    padding: 40px 120px;
+}
+
+.signUpContainer {
+    margin: 80px 0;
+    background-color: #e554730d;
+    padding: 60px 0;
+}
+
+.signUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+    gap: 50px;
+}
+
+.signUp .signUpText {
+    text-align: center;
+}
+
+.signUpText h1 {
+    margin-bottom: 17px;
+    color: #272727;
+}
+
+.signUpText h1 span {
+    color: #e55473;
+}
+
+.signUpImage img {
+    width: 250px;
+    height: auto;
+}
+
+.InstagramContainer {
+    margin-bottom: 80px;
+}
+
+.instagramText {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.instagramText h1 {
+    margin-bottom: 12px;
+    font-size: 30px;
+    color: #272727;
+}
+
+.instagramText p {
+    line-height: 2;
+    font-size: 14px;
+    color: rgba(39, 39, 39, 0.6);
+}
+
+.instagramImages img {
+    width: 300px;
+    height: auto;
+    margin: 0 10px;
+}
+
+.instagramImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formBtn {
+    display: inline-block;
+}
+
+.contactContainer {
+    margin: 80px 0;
+}
+
+.contact {
+    margin: 80px 0;
+    max-width: 1040px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/Rectangle\ 9.png");
+    background-position: center;
+    padding: 110px;
+    text-align: center;
+}
+
+.contactForm input {
+    width: 450px;
+    border: none;
+    border-radius: 10px;
+    padding: 18px;
+}
+
+.footerContainer {
+    text-align: center;
+    background-color: #111010;
+    padding: 100px;
+}
+
+.footerText {
+    max-width: 500px;
+    margin: auto;
+}
+
+.footerText h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    color: white;
+}
+
+.footerText h1 span {
+    color: #e55473;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.footerText p {
+    color: #ffffffe5;
+    margin-top: 12px;
+    font-size: 15px;
+}
+
+.footerText .Copyright {
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.4);
+
+    font-size: 16px;
+
+    font-weight: 400;
+}
